@@ -46,3 +46,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/****************
+        Mine
+*****************/
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navbar{
+    background-color: black;
+}
+.hero{
+    background-image: url('../images/hero-background.jpg');
+}
