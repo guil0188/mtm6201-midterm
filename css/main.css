@@ -59,3 +59,17 @@ body{
 .hero{
     background-image: url('../images/hero-background.jpg');
 }
+
+.menu-locations{
+    background-image: url('../images/coffee-shop.jpeg');
+}
+
+#jane{
+    background-image: url('../images/testimonial-1.jpeg');
+}
+#scott{
+    background-image: url('../images/testimonial-2.jpeg');
+}
+#susie{
+    background-image: url('../images/testimonial-3.jpeg');
+}

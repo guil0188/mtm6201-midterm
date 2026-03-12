@@ -6,91 +6,161 @@
     <title>Midterm Project</title>
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body>
-    <header>
-      <!-- I gave the nav a class for styling accuracy -->
-      <nav class="navbar">
-        <img
-          src="images/my-coffee-shop-logo.svg"
-          alt="logo that says my coffee shop"
-        />
-        <ul>
-          <li>About Us</li>
-          <li>Menu</li>
-          <li>Locations</li>
-        </ul>
-      </nav>
-      <!-- I gave the hero section a class for styling accuracy -->
-      <div class="hero">
-        <h1>Experience coffee like never before</h1>
-        <p>
-          We craft more than beverages; we curate memories, one flavorful moment
-          at a time. Embrace the aroma and let every visit be a chapter in your
-          coffee story.
-        </p>
-        <button>Explore our menu</button>
-      </div>
-    </header>
-    <main>
-      <section class="welcome-wrapper">
-        <article class="welcome">
-          <h2>Welcome to My Coffee House</h2>
-          <h3>EXPERIENCE A NEW WAY TO TASTE COFFEE</h3>
-          <div class="welcome-images">
-            <img
-              src="images/latte.jpeg"
-              alt="cream being poured into a cup of coffee"
-            />
-            <img
-              src="images/coffee-beans.jpeg"
-              alt="a glass on the left filled with coffee beans and some spilled on the table"
-            />
-            <img
-              src="images/pouring-coffee.jpeg"
-              alt="black coffee being poured into a glass cup"
-            />
-            <img
-              src="images/three-cups.jpeg"
-              alt="overhead picture of three coffee cups being held by three different people"
-            />
-            <img
-              src="images/smiling-employee.jpeg"
-              alt=" coffee employee smiling at customers"
-            />
+  <div class="container">
+    <body>
+      <header>
+        <!-- I gave the nav a class for styling accuracy -->
+        <nav class="navbar">
+          <img
+            src="images/my-coffee-shop-logo.svg"
+            alt="logo that says my coffee shop"
+          />
+          <ul>
+            <li>About Us</li>
+            <li>Menu</li>
+            <li>Locations</li>
+          </ul>
+        </nav>
+        <!-- I gave the hero section a class for styling accuracy -->
+        <div class="hero">
+          <h1>Experience coffee like never before</h1>
+          <p>
+            We craft more than beverages; we curate memories, one flavorful
+            moment at a time. Embrace the aroma and let every visit be a chapter
+            in your coffee story.
+          </p>
+          <button>Explore our menu</button>
+        </div>
+      </header>
+      <main>
+        <!-- I put a section tag that wraps around the whole welcome section. Within that theres the article for the two headers and the 5 images. And after that I added another article
+       with divs within it to separate the why visit us-->
+        <section class="welcome-wrapper">
+          <article class="welcome">
+            <h2>Welcome to My Coffee House</h2>
+            <h3>EXPERIENCE A NEW WAY TO TASTE COFFEE</h3>
+            <div class="welcome-images">
+              <img
+                src="images/latte.jpeg"
+                alt="cream being poured into a cup of coffee"
+              />
+              <img
+                src="images/coffee-beans.jpeg"
+                alt="a glass on the left filled with coffee beans and some spilled on the table"
+              />
+              <img
+                src="images/pouring-coffee.jpeg"
+                alt="black coffee being poured into a glass cup"
+              />
+              <img
+                src="images/three-cups.jpeg"
+                alt="overhead picture of three coffee cups being held by three different people"
+              />
+              <img
+                src="images/smiling-employee.jpeg"
+                alt=" coffee employee smiling at customers"
+              />
+            </div>
+          </article>
+          <article class="ww-offer">
+            <h2>What we Offer</h2>
+            <h3>Why visit us?</h3>
+            <div class="cards">
+              <img src="images/fair-trade.svg" alt="" />
+              <h4>Fair Trade Coffee</h4>
+              <p>
+                We build direct relationships with the farmers and producers who
+                help in the development of delicious, sustainable and organic
+                coffee.
+              </p>
+            </div>
+            <img src="images/local-baked-goods.svg" alt="" />
+            <div class="cards">
+              <h4>Local baked goods</h4>
+              <p>
+                We use local products to bake our goods and bring in a variety
+                of treats from local bakers with our community.
+              </p>
+            </div>
+            <img src="images/made-with-love.svg" alt="" />
+            <div class="cards">
+              <h4>Made with love</h4>
+              <p>
+                We value our customers and make it our priority to serve
+                everyone with respect and a friendly smile to start their day of
+                right.
+              </p>
+            </div>
+          </article>
+        </section>
+        <!-- I put a section tag that wraps around the whole menu and locations section. -->
+        <section class="menu-locations">
+          <div class="menu">
+            <h2>Our Menu</h2>
+            <h3>Explore what we have to offer you</h3>
+            <button>Explore our menu</button>
           </div>
-        </article>
-        <article class="ww-offer">
-          <h2>What we Offer</h2>
-          <h3>Why visit us?</h3>
-          <div class="cards">
-            <img src="images/fair-trade.svg" alt="" />
-            <h4>Fair Trade Coffee</h4>
+          <div class="locations">
+            <h2>Locations</h2>
+            <h3>Find your nearest coffee shop</h3>
+            <button>View Locations</button>
+          </div>
+        </section>
+        <section class="about">
+          <img
+            src="images/about-us.jpeg"
+            alt="person holding a glass under coffee maker"
+          />
+          <div class="about-us">
+            <h2>About Us</h2>
+            <h3>Read our story</h3>
             <p>
-              We build direct relationships with the farmers and producers who
-              help in the development of delicious, sustainable and organic
-              coffee.
+              In the heart of our community, My Coffee House emerged as a humble
+              local coffee shop that sought to redefine the coffee experience.
+              Founded with a passion for quality brews and a commitment to
+              fostering genuine connections, we embarked on this journey with a
+              vision to create a warm and inviting space for coffee enthusiasts
+              and casual patrons alike. My Coffee House quickly became a
+              cherished gathering spot, where the rich aroma of freshly ground
+              coffee beans mingled with the laughter of friends and the tapping
+              of keyboards from those seeking a cozy workspace.
             </p>
           </div>
-          <img src="images/local-baked-goods.svg" alt="" />
-          <div class="cards">
-            <h4>Local baked goods</h4>
-            <p>
-              We use local products to bake our goods and bring in a variety of
-              treats from local bakers with our community.
-            </p>
+          <button>Learn more</button>
+        </section>
+        <section class="testimonials">
+          <h2>Testimonials</h2>
+          <h3>What our customers say about us</h3>
+          <div class="testimonial-cards" id="jane">
+            <blockquote>
+              <p>
+                "I always make a point to visit My Coffee Company when in
+                Ottawa. Delicious coffee and friendly service."
+              </p>
+              <cite>Jane D., Toronto</cite>
+            </blockquote>
           </div>
-          <img src="images/made-with-love.svg" alt="" />
-          <div class="cards">
-            <h4>Made with love</h4>
-            <p>
-              We value our customers and make it our priority to serve everyone
-              with respect and a friendly smile to start their day of right.
-            </p>
+          <div class="testimonial-cards" id="scott">
+            <blockquote>
+              <p>
+                "Great atmosphere to get some work done while enjoying a cup or
+                two of incredible coffee."
+              </p>
+              <cite>Scott S., Ottawa</cite>
+            </blockquote>
           </div>
-        </article>
-      </section>
-      <section class="menu-locations"></section>
-    </main>
-    <footer></footer>
-  </body>
+          <div class="testimonial-cards" id="susie">
+            <blockquote>
+              <p>
+                "Best coffee in Ottawa and the service is top notch. Would
+                highly recommend a visit."
+              </p>
+              <cite>Susie F., Ottawa</cite>
+            </blockquote>
+          </div>
+        </section>
+      </main>
+      <footer>&copy;My Coffee Company 2024</footer>
+    </body>
+  </div>
 </html>
