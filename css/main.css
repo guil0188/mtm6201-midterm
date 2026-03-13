@@ -633,4 +633,12 @@ footer::before {
 	.about img{
 		width: 45%;
 	}
+	/* Testimonials section */
+	.testimonial-wrapper{
+		gap: 2rem;
+	}
+	.testimonial-cards{
+		min-height: 420px;
+		padding: 2rem;
+	}
 }
