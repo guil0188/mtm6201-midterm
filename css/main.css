@@ -222,6 +222,35 @@ h1,h2,h3,h4{
     border:none;
     padding:0.7rem 1.5rem;
 }
+/*******************************
+		testimonials
+*******************************/
+.testimonials{
+	margin-top: 3rem;
+	text-align: center;
+}
+.testimonials-wrapper{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin-top: 2rem;
+}
+.testimonial-cards{
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding: 3rem 1rem;
+}
+blockquote{
+	max-width: 400px;
+	margin: auto;
+	line-height: 1.6;
+}
+cite{
+	display: block;
+	margin-top: 1rem;
+	font-weight: bold;
+}
 #jane{
     background-image: url('../images/testimonial-1.jpeg');
 }
