@@ -641,4 +641,9 @@ footer::before {
 		min-height: 420px;
 		padding: 2rem;
 	}
+	/* footer */
+	footer{
+		padding: 3rem 1rem;
+		font-size: 1rem;
+	}
 }
