@@ -618,4 +618,12 @@ footer::before {
 	.cards {
 		gap: 3rem;
 	}
+	/* Menu and location */
+	.menu-locations {
+		padding: 6rem 2rem;
+	}
+
+	.menu-locations h3 {
+		font-size: 3rem;
+	}
 }
