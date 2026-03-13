@@ -606,6 +606,13 @@ footer::before {
 	.hero p {
 		font-size: 1.1rem;
 	}
+	/* Welcome Section */
+	.welcome-wrapper{
+		margin-top: 4rem;
+	}
+	.welcome h3{
+		font-size: 2em;
+	}
 
 
 }
