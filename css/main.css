@@ -149,11 +149,79 @@ h1,h2,h3,h4{
         Offer cards
 ****************************/
 
+.ww-offer{
+	margin-top: 3rem;
+	text-align: center;
+}
+.cards{
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin-top: 2rem;
+}
+.card{
+	padding: 1rem;
+}
+.card img{
+	height: 200px;
+	margin-bottom: 1rem;
+}
+.card h4{
+	margin-bottom: 0.5rem;
 
+}
+.card p{
+	line-height: 1.6;
+}
+/*******************************
+		menu and locations
+*******************************/
 .menu-locations{
     background-image: url('../images/coffee-shop.jpeg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
+	padding: 4rem 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	margin-top: 3rem;
+}
+.menu-locations h2{
+	margin-bottom: 0.5rem;
+}
+.menu-locations button{
+	background: #d69e3d;
+	border: none;
+	padding: 0.7rem 1.5rem;
+	margin-top: 1rem;
+	font-weight: bold;
+}
+/*******************************
+		About Section
+*******************************/
+.about{
+	margin-top: 3rem;
+}
+.about img{
+	width: 100%;
+	display: block;
+}
+.about-us{
+    margin-top:1.5rem;
 }
 
+.about-us p{
+    line-height:1.6;
+    margin:1rem 0;
+}
+
+.about-us button{
+    background:#d69e3d;
+    border:none;
+    padding:0.7rem 1.5rem;
+}
 #jane{
     background-image: url('../images/testimonial-1.jpeg');
 }
