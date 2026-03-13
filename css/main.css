@@ -626,4 +626,11 @@ footer::before {
 	.menu-locations h3 {
 		font-size: 3rem;
 	}
+	/* About Section */
+	.about{
+		gap: 3rem;
+	}
+	.about img{
+		width: 45%;
+	}
 }
