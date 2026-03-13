@@ -350,3 +350,22 @@ footer::before{
 	background:#3e3d3c;
 	margin:0 auto 1rem auto;
 }
+/****************************
+	Tablet media queries
+*****************************/
+
+@media screen and (min-width: 768px) {
+	/* navigation */
+	.navbar{
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+}
+.navbar img{
+	margin-bottom:0;
+}
+
+.navbar ul{
+	gap:2rem;
+}
+}
