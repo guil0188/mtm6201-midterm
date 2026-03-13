@@ -593,5 +593,19 @@ footer::before {
 		height: 50px;
 	}
 
+	/* Hero */
+
+	.hero {
+		padding: 10rem 2rem;
+	}
+
+	.hero h1 {
+		font-size: 3.5rem;
+	}
+
+	.hero p {
+		font-size: 1.1rem;
+	}
+
 
 }
