@@ -575,3 +575,23 @@ footer::before {
 	}
 
 }
+
+/***************************
+	Desktop media queries
+***************************/
+@media screen and (min-width: 1200px) {
+	/* Navigation */
+
+	.navbar {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.navbar img {
+		margin-bottom: 0;
+		height: 50px;
+	}
+
+
+}
