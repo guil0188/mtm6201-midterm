@@ -46,15 +46,29 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/****************
-        Mine
-*****************/
-body{
+/***************************
+        Base Page style
+****************************/
+.container{
     max-width: 1200px;
     margin: 0 auto;
+	padding: 1rem;
 }
+body{
+	font-family: 'Karla', sans-serif;
+	background: #f3f0e9;
+	color: #000;
+}
+h1,h2,h3,h4{
+    font-family:'Lato', sans-serif;
+}
+
+/***************************
+        Navigation Bar
+****************************/
 .navbar{
-    background-color: black;
+    background-color: #000;
+	
 }
 .hero{
     background-image: url('../images/hero-background.jpg');
