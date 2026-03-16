@@ -133,6 +133,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html {
+	scroll-behavior: smooth;
+}
 /***************************
 		Skip links
 ****************************/
@@ -154,11 +157,12 @@ table {
   		Button CSS
 ****************************/
 button {
-	transition: all 0.3s ease;
+	transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 button:hover {
-	transform: scale(1.05);
+	transform: translateY(-2px);
+	box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
 button:active {
@@ -241,7 +245,29 @@ h4 {
 	color: white;
 	text-decoration: none;
 	font-size: 0.9rem;
+	position: relative;
+	transition: color 0.3s ease;
 
+}
+.navbar a:focus {
+	outline: 2px solid #d69e3d;
+	outline-offset: 3px;
+}
+.navbar a::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+	width: 0;
+	height: 2px;
+	background: #d69e3d;
+	transition: width 0.3s ease;
+}
+.navbar a:hover::after {
+	width: 100%;
+}
+.navbar a:focus::after {
+	width: 100%;
 }
 
 /***************************
@@ -266,7 +292,7 @@ h4 {
 }
 
 .hero p {
-	max-width: 500px;
+	max-width: 650px;
 	margin: 0 auto 1.5rem auto;
 	line-height: 1.6;
 }
@@ -332,6 +358,12 @@ h4 {
 .card {
 	text-align: center;
 	padding: 1rem;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.card:hover {
+	transform: translateY(-6px);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 .card img {
@@ -453,8 +485,12 @@ h4 {
 	position: relative;
 	display: flex;
 	align-items: flex-end;
-}
+	transition: transform 0.4s ease;
 
+}
+.testimonial-cards:hover {
+	transform: scale(1.03);
+}
 .testimonial-cards::before {
 	content: "";
 	position: absolute;

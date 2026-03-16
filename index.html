@@ -11,15 +11,15 @@
     />
   </head>
   <body>
-    <nav class="skip-links">
+    <div class="skip-links">
       <a href="#about-us">Skip to About Us</a>
       <a href="#menu">Skip to Menu</a>
       <a href="#locations">Skip to Locations</a>
-    </nav>
+    </div>
     <div class="container">
       <header>
         <!-- I gave the nav a class for styling accuracy -->
-        <nav class="navbar">
+        <nav class="navbar" aria-label="Main navigation">
           <img
             src="images/my-coffee-shop-logo.svg"
             alt="logo that says my coffee shop"
@@ -147,16 +147,24 @@
           <h2>Testimonials</h2>
           <h3>What our customers say about us</h3>
           <div class="testimonial-wrapper">
-            <div class="testimonial-cards" id="jane">
+            <div
+              class="testimonial-cards"
+              id="jane"
+              aria-label="Testimonial from Jane D. from Toronto"
+            >
               <blockquote>
                 <p>
-                  "I always make a point to visit My Coffee Company when in
+                  "I always make a point to visit My Coffee House when in
                   Ottawa. Delicious coffee and friendly service."
                 </p>
                 <cite>Jane D., Toronto</cite>
               </blockquote>
             </div>
-            <div class="testimonial-cards" id="scott">
+            <div
+              class="testimonial-cards"
+              id="scott"
+              aria-label="Testimonial from Scott S. from Ottawa"
+            >
               <blockquote>
                 <p>
                   "Great atmosphere to get some work done while enjoying a cup
@@ -165,7 +173,11 @@
                 <cite>Scott S., Ottawa</cite>
               </blockquote>
             </div>
-            <div class="testimonial-cards" id="susie">
+            <div
+              class="testimonial-cards"
+              id="susie"
+              aria-label="Testimonial from Susie F. from Ottawa"
+            >
               <blockquote>
                 <p>
                   "Best coffee in Ottawa and the service is top notch. Would
