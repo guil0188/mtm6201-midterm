@@ -11,6 +11,11 @@
     />
   </head>
   <body>
+    <nav class="skip-links">
+      <a href="#about-us">Skip to About Us</a>
+      <a href="#menu">Skip to Menu</a>
+      <a href="#locations">Skip to Locations</a>
+    </nav>
     <div class="container">
       <header>
         <!-- I gave the nav a class for styling accuracy -->
@@ -20,14 +25,14 @@
             alt="logo that says my coffee shop"
           />
           <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Locations</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#locations">Locations</a></li>
           </ul>
         </nav>
       </header>
       <!-- I gave the hero section a class for styling accuracy -->
-      <div class="hero">
+      <section class="hero">
         <h1>Experience coffee like never before</h1>
         <p>
           We craft more than beverages; we curate memories, one flavorful moment
@@ -35,7 +40,7 @@
           coffee story.
         </p>
         <button>Explore our menu</button>
-      </div>
+      </section>
       <main>
         <!-- I put a section tag that wraps around the whole welcome section. Within that theres the article for the two headers and the 5 images. And after that I added another article
        with divs within it to separate the why visit us-->
@@ -105,18 +110,18 @@
         </section>
         <!-- I put a section tag that wraps around the whole menu and locations section. -->
         <section class="menu-locations">
-          <div class="menu">
+          <div class="menu" id="menu">
             <h2>Our Menu</h2>
             <h3>Explore what we have to offer you</h3>
             <button>Explore our menu</button>
           </div>
-          <div class="locations">
+          <div class="locations" id="locations">
             <h2>Locations</h2>
             <h3>Find your nearest coffee shop</h3>
             <button>View Locations</button>
           </div>
         </section>
-        <section class="about">
+        <section class="about" id="about-us">
           <img
             src="images/about-us.jpeg"
             alt="person holding a glass under coffee maker"
