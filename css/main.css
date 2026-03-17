@@ -139,6 +139,9 @@ html {
 /***************************
 		Skip links
 ****************************/
+/* Skip links are visually hidden above the page until they receive keyboard focus with tab.
+When focused, they move into view so keyboard users can jump directly to important
+sections of the page. */
 .skip-links a {
 	position: absolute;
 	top: -40px;
@@ -156,6 +159,9 @@ html {
 /***************************
   		Button CSS
 ****************************/
+/* Basic button styling. Transitions are used to make hover
+and click interactions feel smoother. The slight movement and shadow help give
+the buttons a more interactive feel. */
 button {
 	transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -175,6 +181,9 @@ outline: 2px solid #d69e3d;
 /***************************
         Base Page style
 ****************************/
+/* Base styles define the overall look of the page including typography, colors,
+and layout spacing. The container class centers the content and prevents it
+from stretching too wide on large screens. */
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -222,6 +231,9 @@ h4 {
 /***************************
         Navigation Bar
 ****************************/
+/* The navigation uses flexbox to align the logo and menu links. On smaller screens
+the layout stacks vertically, while on larger screens the media queries change
+it to a horizontal layout. */
 .navbar {
 	background-color: #000;
 	color: white;
@@ -273,6 +285,8 @@ h4 {
 /***************************
        	Hero Section
 ****************************/
+/* The hero section uses a background image with a dark gradient overlay. The overlay
+helps ensure the white text remains readable regardless of the image behind it. */
 .hero {
 	background-image:
 		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -308,6 +322,11 @@ h4 {
 /***************************
        	Welcome Section
 ****************************/
+/* The welcome section displays a gallery of images that introduce the coffee shop.
+CSS Grid is used to create the layout so the images can be arranged differently
+depending on screen size. On mobile the images appear in a simple grid, while
+tablet and desktop media queries adjust the grid to match the design layout
+where the first image appears larger than the others. */
 .welcome {
 	text-align: left;
 }
@@ -342,6 +361,9 @@ h4 {
 /***************************
         Offer cards
 ****************************/
+/* These cards highlight features of the coffee shop. A hover animation is added
+to slightly lift the cards and add a shadow, which gives a more interactive feel 
+when users move their mouse over them. */
 
 .ww-offer {
 	margin-top: 3rem;
@@ -383,6 +405,8 @@ h4 {
 /*******************************
 		menu and locations
 *******************************/
+/* Flexbox is used to stack the menu and locations vertically on mobile, and side-by-side on larger
+screens using media queries. */
 .menu-locations {
 	background-image:
 		linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -433,6 +457,11 @@ h4 {
 /*******************************
 		About Section
 *******************************/
+/* The about section contains an image and a block of text explaining the coffee
+shop's story. On mobile screens the layout stacks vertically so the content
+remains easy to read. In the tablet media query the layout switches to flexbox
+so the image and text can sit next to each other, creating a more balanced
+layout on wider screens. */
 .about {
 	margin-top: 3rem;
 }
@@ -462,6 +491,9 @@ h4 {
 /*******************************
 		testimonials
 *******************************/
+/* Each testimonial card uses a background image with a semi-transparent overlay.
+The overlay ensures the text remains readable. The cards also have a subtle
+hover scale effect to make the section feel more interactive. */
 .testimonials {
 	margin-top: 3rem;
 	text-align: left;
@@ -535,6 +567,9 @@ cite {
 /****************
 	footer 
 *****************/
+/* The footer contains basic site information. A pseudo-element (::before) is used
+to create the thin divider line above the footer content without adding extra
+HTML elements. */
 footer {
 	background: #000;
 	color: #f3f0e9;
@@ -556,6 +591,11 @@ footer::before {
 /****************************
 	Tablet media queries
 *****************************/
+/*
+Media queries adjust the layout for larger screens. Tablet styles start at
+768px and desktop styles start at 1100px. These breakpoints reorganize the
+layout using flexbox and grid so the design matches the provided mockups.
+*/
 
 @media screen and (min-width: 768px) {
 

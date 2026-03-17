@@ -11,6 +11,9 @@
     />
   </head>
   <body>
+    <!-- These skip links are added for accessibility. They allow keyboard and screen 
+     reader users to quickly jump to important parts of the page without having to tab 
+     through the entire navigation. The links stay hidden off screen until they receive focus. -->
     <div class="skip-links">
       <a href="#about-us">Skip to About Us</a>
       <a href="#menu">Skip to Menu</a>
@@ -18,7 +21,9 @@
     </div>
     <div class="container">
       <header>
-        <!-- I gave the nav a class for styling accuracy -->
+        <!-- These skip links are added for accessibility. They allow keyboard and screen reader 
+         users to quickly jump to important parts of the page without having to tab through 
+         the entire navigation. The links stay hidden off screen until they receive focus. -->
         <nav class="navbar" aria-label="Main navigation">
           <img
             src="images/my-coffee-shop-logo.svg"
@@ -31,7 +36,9 @@
           </ul>
         </nav>
       </header>
-      <!-- I gave the hero section a class for styling accuracy -->
+      <!-- The hero section is the main introduction area of the page. It includes a large 
+       headline, a short description, and a call-to-action button. The background image 
+       is applied in CSS so it can scale properly and have a dark overlay for readability. -->
       <section class="hero">
         <h1>Experience coffee like never before</h1>
         <p>
@@ -42,8 +49,10 @@
         <button>Explore our menu</button>
       </section>
       <main>
-        <!-- I put a section tag that wraps around the whole welcome section. Within that theres the article for the two headers and the 5 images. And after that I added another article
-       with divs within it to separate the why visit us-->
+        <!-- This section introduces the coffee shop. I used two articles inside this section 
+         to separate the content logically. The first article contains the welcome text 
+         and image gallery, while the second article contains the "Why visit us" cards. 
+         Using articles helps group related content in a semantic way.-->
         <section class="welcome-wrapper">
           <article class="welcome">
             <h2>Welcome to My Coffee House</h2>
@@ -108,7 +117,9 @@
             </div>
           </article>
         </section>
-        <!-- I put a section tag that wraps around the whole menu and locations section. -->
+        <!-- This section highlights the menu and locations. I grouped both pieces of content 
+         in one section because they share the same background image and layout. Each 
+         block has its own div so they can be arranged with flexbox on larger screens. -->
         <section class="menu-locations">
           <div class="menu" id="menu">
             <h2>Our Menu</h2>
@@ -143,6 +154,9 @@
             <button>Learn more</button>
           </div>
         </section>
+        <!-- The testimonials section shows customer feedback. Each testimonial is placed 
+         inside its own card with a background image. I used blockquote and cite to keep 
+         the content semantic since these are actual quoted reviews from customers. -->
         <section class="testimonials">
           <h2>Testimonials</h2>
           <h3>What our customers say about us</h3>
