@@ -21,9 +21,10 @@
     </div>
     <div class="container">
       <header>
-        <!-- These skip links are added for accessibility. They allow keyboard and screen reader 
-         users to quickly jump to important parts of the page without having to tab through 
-         the entire navigation. The links stay hidden off screen until they receive focus. -->
+        <!-- This navigation contains links to the main sections of the page. I used flexbox
+        to control the layout so it stacks vertically on mobile and switches to a row
+        layout in the desktop media query. The aria-label helps screen readers identify
+        this as the main navigation. -->
         <nav class="navbar" aria-label="Main navigation">
           <img
             src="images/my-coffee-shop-logo.svg"
