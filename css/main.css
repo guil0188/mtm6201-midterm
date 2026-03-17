@@ -587,16 +587,13 @@ footer::before {
 	background: #3e3d3c;
 	margin: 0 auto 1rem auto;
 }
+/* Media queries adjust the layout for larger screens. Tablet styles start at
+768px and desktop styles start at 1100px. These breakpoints reorganize the
+layout using flexbox and grid so the design matches the provided mockups. */
 
 /****************************
 	Tablet media queries
 *****************************/
-/*
-Media queries adjust the layout for larger screens. Tablet styles start at
-768px and desktop styles start at 1100px. These breakpoints reorganize the
-layout using flexbox and grid so the design matches the provided mockups.
-*/
-
 @media screen and (min-width: 768px) {
 
 	/* navigation */
